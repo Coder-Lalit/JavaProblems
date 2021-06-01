@@ -1,6 +1,5 @@
-package LeetCode.Problem.Easy;
+package LeetCode.Problems.Easy;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class ReverseANumber {

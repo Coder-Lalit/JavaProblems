@@ -1,8 +1,6 @@
-package LeetCode.Problem.Easy;
+package LeetCode.Problems.Easy;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Set;
 
 public class ProblemLengthOfLongestSubstring2 {
     public static void main(String[] args) {

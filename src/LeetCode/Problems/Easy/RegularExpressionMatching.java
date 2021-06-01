@@ -1,7 +1,6 @@
-package LeetCode.Problem.Easy;
+package LeetCode.Problems.Easy;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class RegularExpressionMatching {

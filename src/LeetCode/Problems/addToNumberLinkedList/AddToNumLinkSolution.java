@@ -1,4 +1,4 @@
-package LeetCode.Problem.addToNumberLinkedList;
+package LeetCode.Problems.addToNumberLinkedList;
 
 public class AddToNumLinkSolution {
 

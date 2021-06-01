@@ -6,6 +6,7 @@ public class stockQuestion {
         System.out.println(findMinDays(3,10));
         System.out.println(findMinDays(3,4));
         System.out.println(findMinDays(5,4));
+        System.out.println(findMinDays2(5,4));
     }
 
     static int findMinDays(int n, int m) {
@@ -41,6 +42,20 @@ public class stockQuestion {
 
         }
         return days;
+    }
+
+    public static int findMinDays2(int X, int Y) {
+        int ans = 0;
+        while (Y > X) {
+            ans++;
+            if (Y % 2 == 1)
+                Y++;
+            else
+                Y /= 2;
+            System.out.println("X =" + X + " Y = " + Y);
+        }
+
+        return ans + X - Y;
     }
 
 }

@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.Tree;
 
 public class SameTree {
     public static class TreeNode {

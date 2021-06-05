@@ -20,8 +20,18 @@ public class MaxDepthBinaryTree {
         }
     }
 
+    public static int maxDepth(TreeNode root) {
+        if(root == null) return 0;
+        int l_max = maxDepth(root.left);
+        int r_max = maxDepth(root.right);
+        return Integer.max(l_max,r_max)+1;
+    }
+
+
 
     public static void main(String[] args) {
-        //TreeNode t = new TreeNode(1,new TreeNode(2,new TreeNode(4),new TreeNode(5)),new TreeNode(3));
+        TreeNode t = new TreeNode(3,new TreeNode(9),new TreeNode(20,new TreeNode(15),new TreeNode(7)));
+        //TreeNode t = new TreeNode(1,null,new TreeNode(2));
+        System.out.println(maxDepth(t));
     }
 }

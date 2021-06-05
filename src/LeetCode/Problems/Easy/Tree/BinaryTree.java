@@ -1,5 +1,7 @@
 package LeetCode.Problems.Easy.Tree;
 
+import java.util.Stack;
+
 public class BinaryTree {
     public static class TreeNode {
         int val;
@@ -18,11 +20,26 @@ public class BinaryTree {
             this.left = left;
             this.right = right;
         }
+
+        public void preOrder() {
+            if (this == null) return;
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode cur = this;
+            while (cur != null || !stack.empty()) {
+                while(cur !=null){
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                cur = stack.pop();
+                System.out.println(cur.val);
+                cur= cur.right;
+            }
+        }
     }
 
     public static void preOrder(TreeNode n) {
         if (n == null) return;
-        System.out.print(n.val +" ");
+        System.out.print(n.val + " ");
         preOrder(n.left);
         preOrder(n.right);
     }
@@ -30,7 +47,7 @@ public class BinaryTree {
     public static void inOrder(TreeNode n) {
         if (n == null) return;
         inOrder(n.left);
-        System.out.print(n.val +" ");
+        System.out.print(n.val + " ");
         inOrder(n.right);
     }
 
@@ -38,12 +55,12 @@ public class BinaryTree {
         if (n == null) return;
         postOrder(n.left);
         postOrder(n.right);
-        System.out.print(n.val +" ");
+        System.out.print(n.val + " ");
     }
 
     public static void main(String[] args) {
         //TreeNode t = new TreeNode(1,new TreeNode(2,new TreeNode(4),new TreeNode(5)),new TreeNode(3));
-        TreeNode t = new TreeNode(1,null,new TreeNode(2,new TreeNode(3),null));
+        TreeNode t = new TreeNode(1, null, new TreeNode(2, new TreeNode(3), null));
         System.out.println("Pre");
         preOrder(t);
         System.out.println("\nIn");

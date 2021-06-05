@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.Tree;
+package LeetCode.Problems.Easy;
 
 public class AddBinary {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.List;
 
 public class RemoveDuplicatesFromSortedList {
     public static void main(String args[]) {

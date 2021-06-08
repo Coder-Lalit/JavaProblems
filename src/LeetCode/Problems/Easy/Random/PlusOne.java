@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.Random;
 
 public class PlusOne {
     public static void main(String[] args) {

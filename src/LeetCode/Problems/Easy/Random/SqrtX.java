@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.Random;
 
 public class SqrtX {
     public static void main(String[] args) {

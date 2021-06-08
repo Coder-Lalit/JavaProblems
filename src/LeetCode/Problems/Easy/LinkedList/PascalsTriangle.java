@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.List;
+package LeetCode.Problems.Easy.LinkedList;
 
 import java.util.ArrayList;
 import java.util.List;

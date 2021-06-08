@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.List;
+package LeetCode.Problems.Easy.LinkedList;
 
 public class MergeTwoSortedLists {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package LeetCode.Problems.Easy.Random;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MajorityElement {
     public static void main(String[] args) {
         System.out.println( majorityElement(new int []{1,8,8,8,9,8,1}));

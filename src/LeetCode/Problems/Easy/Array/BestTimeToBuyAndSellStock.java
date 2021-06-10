@@ -2,8 +2,8 @@ package LeetCode.Problems.Easy.Array;
 
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
-        //System.out.println(maxProfit1(new int []{1,2}));
-        System.out.println(maxProfitMulti(new int[]{7, 1, 5, 6, 3, 6, 4}));
+        System.out.println(maxProfit(new int []{-1,8,6,7,9,1,8}));
+        //System.out.println(maxProfitMulti(new int[]{7, 1, 5, 6, 3, 6, 4}));
     }
 
     public static int maxProfit(int[] prices) {

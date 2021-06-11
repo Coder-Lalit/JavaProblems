@@ -1,4 +1,4 @@
-package LeetCode.Problems.addToNumberLinkedList;
+package LeetCode.Problems.Easy.LinkedList.addToNumberLinkedList;
 
 
  //Definition for singly-linked list.

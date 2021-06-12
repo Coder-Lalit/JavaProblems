@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.Random;
 
 import java.util.ArrayList;
 import java.util.List;

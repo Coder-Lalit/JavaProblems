@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.String;
 
 import java.util.Collection;
 import java.util.HashMap;

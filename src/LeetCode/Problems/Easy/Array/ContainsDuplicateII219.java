@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy;
+package LeetCode.Problems.Easy.Array;
 
 public class ContainsDuplicateII219 {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class HappyNumber202 {
     public static void main(String[] args) {
-        System.out.println(isHappy(2));
+        System.out.println(isHappy2(2));
     }
 
     public static boolean isHappy(int n){
@@ -27,5 +27,26 @@ public class HappyNumber202 {
             n=n/10;
         }
         return sum;
+    }
+
+    public static boolean isHappy2(int n){
+        List<Integer> list=new ArrayList<>();
+        int sum=0;
+        list.add(n);
+        while (n!=0){
+            sum += (n%10)*(n%10);
+            n=n/10;
+            if(n==0){
+                n=sum;
+                if(!list.contains(n))
+                    list.add(n);
+                else{
+                    break;
+                }
+                sum=0;
+            }
+        }
+        System.out.println(list.toString());
+        return n==1?true:false;
     }
 }

@@ -13,9 +13,10 @@ public class CountingBits338 {
         int[] res = new int[n+1];
         StringBuilder s= new StringBuilder();
         s.append('0');
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<=n;i++) {
 
         }
-
+        return new int[]{0};
     }
+
 }

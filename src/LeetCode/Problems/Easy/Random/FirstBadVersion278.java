@@ -2,7 +2,7 @@ package LeetCode.Problems.Easy.Random;
 
 public class FirstBadVersion278 {
     public static void main(String[] args) {
-        System.out.println(firstBadVersion(2126753));
+        System.out.println(firstBadVersion(2126753390));
     }
 
     public static int firstBadVersion(int n) {
@@ -23,6 +23,6 @@ public class FirstBadVersion278 {
     }
 
     private static boolean isBadVersion(int m) {
-        return m>=17027;
+        return m>=1702766719;
     }
 }

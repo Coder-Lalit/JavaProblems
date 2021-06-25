@@ -4,11 +4,11 @@ public class SqrtX {
     public static void main(String[] args) {
         //System.out.println(mySqrt(8));
         //System.out.println(mySqrt(4));
-        //System.out.println(mySqrt(625));
+        System.out.println(mySqrt(12));
         //System.out.println(mySqrt(99));
-        System.out.println(mySqrt(1));
-        System.out.println(mySqrt(2147483647));
-        System.out.println(mySqrt2(2147483647));
+//        System.out.println(mySqrt(1));
+//        System.out.println(mySqrt(2147483647));
+//        System.out.println(mySqrt2(2147483647));
     }
 
     public static int mySqrt(int x) {

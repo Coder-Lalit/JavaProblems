@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.Tree;
+package LeetCode.Problems.Easy.Tree.BST;
 
 public class SameTree {
     public static class TreeNode {

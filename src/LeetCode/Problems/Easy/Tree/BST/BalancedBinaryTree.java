@@ -1,10 +1,8 @@
-package LeetCode.Problems.Easy.Tree;
-
-import com.sun.tools.corba.se.idl.toJavaPortable.Helper;
+package LeetCode.Problems.Easy.Tree.BST;
 
 import java.util.Stack;
 
-public class InvertBinaryTree226 {
+public class BalancedBinaryTree {
     public static class TreeNode {
         int val;
         TreeNode left;
@@ -40,25 +38,20 @@ public class InvertBinaryTree226 {
         }
     }
 
-    public static TreeNode invertTree(TreeNode p) {
-        if (p == null) {
-            return null;
-        }
-        TreeNode right = invertTree(p.right);
-        TreeNode left = invertTree(p.left);
-        p.left = right;
-        p.right = left;
-        return p;
+    public static boolean isBalanced(TreeNode root) {
+        if(root==null) return true;
+        return Math.abs(maxHeight(root.left)-maxHeight(root.right)) <2
+                && isBalanced(root.left)
+                && isBalanced(root.right);
+    }
+    public static int maxHeight(TreeNode n){
+        if(n==null) return 0;
+        int lH = maxHeight(n.left);
+        int rH = maxHeight(n.right);
+        return Integer.max(lH,rH)+1;
     }
 
-
     public static void main(String[] args) {
-
-        TreeNode q = new TreeNode(4,
-                new TreeNode(2, new TreeNode(1), new TreeNode(3)),
-                new TreeNode(7, new TreeNode(6), new TreeNode(8)));
-        q.preOrder();
-        invertTree(q).preOrder();
 
     }
 }

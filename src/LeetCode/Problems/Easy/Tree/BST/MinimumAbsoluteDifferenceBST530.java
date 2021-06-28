@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.Tree;
+package LeetCode.Problems.Easy.Tree.BST;
 
 import java.util.ArrayList;
 import java.util.Collections;

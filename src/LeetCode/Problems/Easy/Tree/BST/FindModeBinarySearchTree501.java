@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.Tree;
+package LeetCode.Problems.Easy.Tree.BST;
 
 import org.testng.collections.Lists;
 

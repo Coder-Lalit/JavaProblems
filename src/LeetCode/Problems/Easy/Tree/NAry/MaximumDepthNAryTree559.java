@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MaximumDepthNAryTree {
+public class MaximumDepthNAryTree559 {
     static class Node {
         public int val;
         public List<Node> children;

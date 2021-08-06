@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class SubsetsII {
+public class SubsetsII99 {
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         for(int i =0; i< Math.pow(2,nums.length);i++){

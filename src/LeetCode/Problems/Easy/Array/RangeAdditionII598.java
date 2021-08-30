@@ -6,11 +6,10 @@ public class RangeAdditionII598 {
     }
 
     public static int maxCount(int m, int n, int[][] ops) {
-        int x=Integer.MAX_VALUE,y=Integer.MAX_VALUE;
         for(int i=0;i<ops.length;i++){
-           x=x<ops[i][0]?x:ops[i][0];
-           y=y<ops[i][1]?y:ops[i][1];
+            m=m<ops[i][0]?m:ops[i][0];
+            n=n<ops[i][1]?n:ops[i][1];
         }
-        return x*y;
+        return m*n;
     }
 }

@@ -1,6 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
-
-import java.util.HashMap;
+package LeetCode.Challenges.Y2021.August;
 
 public class FlipStringMonotoneIncreasing {
     public static int minFlipsMonoIncr(String s) {

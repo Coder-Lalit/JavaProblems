@@ -1,7 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
-
-import java.util.ArrayList;
-import java.util.List;
+package LeetCode.Challenges.Y2021.August;
 
 public class LongestUncommonSubsequenceII522 {
     public static int findLUSlength(String[] strs) {

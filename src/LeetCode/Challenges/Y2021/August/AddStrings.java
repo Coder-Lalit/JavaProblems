@@ -1,4 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
+package LeetCode.Challenges.Y2021.August;
 
 public class AddStrings {
     public static String addStrings(String num1, String num2) {

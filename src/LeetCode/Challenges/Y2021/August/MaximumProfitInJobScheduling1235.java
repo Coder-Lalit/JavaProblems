@@ -1,4 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
+package LeetCode.Challenges.Y2021.August;
 
 import org.testng.annotations.Test;
 

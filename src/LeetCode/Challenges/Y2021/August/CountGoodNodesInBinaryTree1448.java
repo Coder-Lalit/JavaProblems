@@ -1,6 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
-
-import java.util.Stack;
+package LeetCode.Challenges.Y2021.August;
 
 public class CountGoodNodesInBinaryTree1448 {
     private static int count = 0;

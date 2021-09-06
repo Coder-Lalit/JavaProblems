@@ -1,7 +1,4 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
-
-import java.util.ArrayList;
-import java.util.List;
+package LeetCode.Challenges.Y2021.August;
 
 public class DecodeWays91 {
     public static int numDecodings1(String s) {

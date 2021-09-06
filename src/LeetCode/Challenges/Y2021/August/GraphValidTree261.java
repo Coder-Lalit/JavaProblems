@@ -1,6 +1,5 @@
-package LeetCode.Problems.AugustLeetCodingChallenge2021;
+package LeetCode.Challenges.Y2021.August;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
